@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Bicho de Luz - Tienda</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <script src="https://kit.fontawesome.com/e37638684b.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Empieza Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="./index.html">Bicho de Luz</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="/index.html"></a></li>
+                </ul>
+                <form class="d-flex">
+                    <a class="nav-link" href="carrito.html">Carrito <i class="bi-cart-fill me-1"></i></a>
+                    <button id="btnCerrarSesion" class="btn btn-outline-light" type="submit">
+                        Cerrar sesión
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Termina Navbar -->
+    <!-- Empieza Banner Tienda -->
+    <div id="bannerTienda">
+        <h2 id="saludoTienda"></h2> <br> 
+        <h1 id="titulo">Nuestros Productos</h1>
+        <p id="parrafo">Tienda online de artículos didácticos y terapéuticos</p>
+    </div>
+    <!-- Termina Banner Tienda -->
+    <!-- Empieza Seccion Inicio/Registro -->
+    <div id="pantallaIngreso">
+        <div id="bannerAcceso">
+            <h1 id="titulo">Bienvenido</h1>
+            <p id="parrafo">Inicie Sesión o Regístrese</p>
+            <div id="botones">
+                <button id="botonIngreso">INICIAR SESION</button>
+                <button id="botonRegistro">REGISTRARME</button>
+            </div>
+        </div>             
+        <div>
+            <form id="formIngreso" action="">
+                <h2 id="tituloIngreso">INGRESO</h2>
+                <div>
+                    <label for=""></label>
+                    <input placeholder="Acá va tu nombre" id="nombreFormIngreso" type="text">
+                </div>
+                <div >
+                    <label for=""></label>
+                    <input placeholder="Y acá tu clave" id="claveFormIngreso" type="text">
+                </div>
+                <button id="botonFormIngreso">Iniciar sesión</button>
+            </form>
+        </div>
+        <div>
+            <form id="formRegistro" action="">
+                <h2 id="tituloRegistro">REGISTRO</h2>
+                <div>
+                    <label for=""></label>
+                    <input placeholder="Acá va tu nombre" id="nombreFormRegistro" type="text">
+                </div>
+                <div>
+                    <label for=""></label>
+                    <input placeholder="Creá una clave" id="claveFormRegistro" type="text">
+                </div>
+                <button id="botonFormRegistro">Crear cuenta</button>
+            </form>
+        </div>
+    </div>
+    <!-- Termina Seccion Inicio/Registro -->
+    <!-- Empieza Seccion Tienda -->
+    <section id="tienda" class="py-5 tienda">
+        <div class="container px-4 px-lg-5 mt-5">
+            <div id="grilla" class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                <!-- DOM -->
+            </div>
+            <div id="infoProducto">
+                <!-- DOM -->
+            </div>
+        </div>
+    </section>
+    <!-- Termina Seccion Tienda -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/dom.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</body>
+</html>

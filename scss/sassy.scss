@@ -1,0 +1,47 @@
+html{
+    background-color: rgb(82, 82, 82);
+}
+.card{height: 350px !important}
+
+header{
+    h2{
+        color: rgb(218, 218, 218);
+        font-size: 20px;
+        font-weight: 350;
+        letter-spacing: 3px;
+        word-spacing: 6px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
+
+#app{
+    background-image: url(../assets/banner.jpg);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+#titulo{
+    color: rgb(218, 218, 218);
+    font-weight: 700;
+    letter-spacing: 3px;
+    word-spacing: 6px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+#parrafo{
+    text-align: center;
+    color: white;
+}
+#saludo{
+    text-align: center;
+    color: white;
+}
+.py-5{
+    background-color: rgb(82, 82, 82);
+}
